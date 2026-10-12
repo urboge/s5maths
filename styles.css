@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2, 2, 2);
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#index-main-menu {
+    width: 100%;
+}
+
+#index-main-menu a {
+    color: rgb(251, 250, 250);
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0s;
+    backdrop-filter: blur(20px);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+#index-main-menu a ion-icon {
+    width: 33%;
+}
+#index-main-menu a span {
+    width: 33%;
+    text-align: center;
+}
+#index-main-menu a .folder-name {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#index-main-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 769px) {
+    #index-main-menu a {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+#index-main-menu a {
+    animation-name: homePageAnimation;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes homePageAnimation {
+    0% {margin-top: 20px;}
+    100% {margin-top: 0;}
+}
+
+.home-page-h2 {
+    animation-name: titleHome;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes titleHome {
+    0% {color: transparent; transform: translateY(10px);}
+}
+
+#main-menu {
+    width: 100%;
+}
+
+#main-menu a {
+    color: rgb(251, 250, 250);
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0s;
+    backdrop-filter: blur(20px);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+#main-menu a ion-icon {
+    width: 33%;
+}
+#main-menu a span {
+    width: 33%;
+    text-align: center;
+}
+#main-menu a .folder-name {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#main-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 769px) {
+    #main-menu a {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+#main-menu #home-btn {
+    color: rgb(251, 250, 250);
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0s;
+    backdrop-filter: blur(20px);
+    border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+#main-menu a {
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animation {
+    0% {margin-top: -20px;}
+    100% {margin-top: 0;}
+}
+
+h2 {
+    animation-name: title;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes title {
+    0% {color: transparent; transform: translateY(-10px);}
+}
