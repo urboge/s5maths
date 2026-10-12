@@ -145,7 +145,6 @@ h2 {
         align-items: center;
         gap: 12px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-        border-radius: 8px;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
         transition: background-color 0.2s ease,
@@ -206,6 +205,9 @@ h2 {
     h2,
     .home-page-h2 {
         animation-duration: 0.35s;
+    }
+    .folder-date {
+        text-align: right;
     }
 }
 
