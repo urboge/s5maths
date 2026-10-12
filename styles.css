@@ -50,13 +50,6 @@ h2 {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 1009px) {
-    #index-main-menu a {
-        margin-left: 0;
-        width: 100%;
-    }
-}
-
 #index-main-menu a {
     animation-name: homePageAnimation;
     animation-duration: 0.5s;
@@ -114,6 +107,10 @@ h2 {
 
 @media (max-width: 1009px) {
     #main-menu a {
+        margin-left: 0;
+        width: 100%;
+    }
+    #index-main-menu a {
         margin-left: 0;
         width: 100%;
     }
