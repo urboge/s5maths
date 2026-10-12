@@ -50,7 +50,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1009px) {
     #index-main-menu a {
         margin-left: 0;
         width: 100%;
@@ -112,7 +112,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1009px) {
     #main-menu a {
         margin-left: 0;
         width: 100%;
